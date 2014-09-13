@@ -1,0 +1,11 @@
+{
+    "applications": {
+        "Linklyy": {
+            "applicationId": "5RhGWIKKZBc7oCaNp5Riv47DZnOCknVSZRtCvX1C", 
+            "masterKey": "y3h4w3RRxeUpefHheUOlHJkPSLnpAGM4NgNE7Vfx"
+        }, 
+        "_default": {
+            "link": "Linklyy"
+        }
+    }
+}
