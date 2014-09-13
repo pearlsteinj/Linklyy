@@ -23,7 +23,17 @@ app.get('/:hash', function(request,response) {
 		var iconURL = lnk.get("iconImage");
 		var launchURL = lnk.get("launchImage");
 		var title = lnk.get("title");
-		response.render('icon', {link:linked, iURL:iconURL, lURL:launchURL, title:title});
+		Parse.Cloud.httpRequest({
+  			url: launchURL,
+  			success: function(httpResponse) {
+  				var img = httpResponse.buffer.toString('base64');
+  				console.log(img);
+  				response.render('icon', {link:linked, iURL:iconURL, lURL:img, title:title});
+  			},
+  			error: function(httpResponse) {
+   				console.error('Request failed with response code ' + httpResponse.status);
+  			}
+		});
 	});
 });
 

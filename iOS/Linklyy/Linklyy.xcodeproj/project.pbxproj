@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		036C21F519C48B72004CF459 /* LNKYoutubeSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036C21F419C48B72004CF459 /* LNKYoutubeSettingsViewController.m */; };
 		038959DB19C414110089E31B /* LNKPhoneSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038959DA19C414110089E31B /* LNKPhoneSettingsViewController.m */; };
 		038959DE19C416B90089E31B /* LNKContactSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038959DD19C416B90089E31B /* LNKContactSelectionViewController.m */; };
 		039775D419C3C567000A7FF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039775D319C3C567000A7FF7 /* Foundation.framework */; };
@@ -34,7 +35,6 @@
 		03E5351919C3CBB0001AE495 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5351819C3CBB0001AE495 /* MobileCoreServices.framework */; };
 		03E5351B19C3CBB5001AE495 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5351A19C3CBB5001AE495 /* QuartzCore.framework */; };
 		03E5351D19C3CBBA001AE495 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5351C19C3CBBA001AE495 /* Security.framework */; };
-		03E5351F19C3CBBF001AE495 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5351E19C3CBBF001AE495 /* StoreKit.framework */; };
 		03E5352119C3CBC4001AE495 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5352019C3CBC4001AE495 /* SystemConfiguration.framework */; };
 		03E5352319C3CBCA001AE495 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5352219C3CBCA001AE495 /* Twitter.framework */; };
 		03E5352519C3CC12001AE495 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5352419C3CC12001AE495 /* FacebookSDK.framework */; };
@@ -44,6 +44,10 @@
 		03E5353619C3CD88001AE495 /* LNKLinkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5353519C3CD88001AE495 /* LNKLinkManager.m */; };
 		03E5353A19C3F366001AE495 /* NSDictionary+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5353919C3F366001AE495 /* NSDictionary+URLEncoding.m */; };
 		03FE4E4919C405FA0014FF33 /* LNKAppListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FE4E4819C405FA0014FF33 /* LNKAppListViewController.m */; };
+		581EF19019C435550039F79D /* LNKFacetimeSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581EF18E19C435550039F79D /* LNKFacetimeSettingsViewController.m */; };
+		58A96BCC19C43DC2006E2D63 /* LNKEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A96BCB19C43DC2006E2D63 /* LNKEmailViewController.m */; };
+		58F0F55819C45918000A5C38 /* LNKSMSSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F0F55619C45918000A5C38 /* LNKSMSSettingsViewController.m */; };
+		58F0F55C19C45F88000A5C38 /* LNKTwitterSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F0F55A19C45F88000A5C38 /* LNKTwitterSettingsViewController.m */; };
 		5EC886C843BB4CB0A95183A1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE45F396D1342C68693711E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +62,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		036C21F319C48B72004CF459 /* LNKYoutubeSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKYoutubeSettingsViewController.h; sourceTree = "<group>"; };
+		036C21F419C48B72004CF459 /* LNKYoutubeSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKYoutubeSettingsViewController.m; sourceTree = "<group>"; };
 		038959D919C414110089E31B /* LNKPhoneSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKPhoneSettingsViewController.h; sourceTree = "<group>"; };
 		038959DA19C414110089E31B /* LNKPhoneSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKPhoneSettingsViewController.m; sourceTree = "<group>"; };
 		038959DC19C416B90089E31B /* LNKContactSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKContactSelectionViewController.h; sourceTree = "<group>"; };
@@ -94,7 +100,6 @@
 		03E5351819C3CBB0001AE495 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		03E5351A19C3CBB5001AE495 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		03E5351C19C3CBBA001AE495 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		03E5351E19C3CBBF001AE495 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		03E5352019C3CBC4001AE495 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		03E5352219C3CBCA001AE495 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		03E5352419C3CC12001AE495 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
@@ -109,6 +114,14 @@
 		03E5353919C3F366001AE495 /* NSDictionary+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URLEncoding.m"; sourceTree = "<group>"; };
 		03FE4E4719C405FA0014FF33 /* LNKAppListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKAppListViewController.h; sourceTree = "<group>"; };
 		03FE4E4819C405FA0014FF33 /* LNKAppListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKAppListViewController.m; sourceTree = "<group>"; };
+		581EF18E19C435550039F79D /* LNKFacetimeSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKFacetimeSettingsViewController.m; sourceTree = "<group>"; };
+		581EF18F19C435550039F79D /* LNKFacetimeSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKFacetimeSettingsViewController.h; sourceTree = "<group>"; };
+		58A96BCA19C43DC2006E2D63 /* LNKEmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKEmailViewController.h; sourceTree = "<group>"; };
+		58A96BCB19C43DC2006E2D63 /* LNKEmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKEmailViewController.m; sourceTree = "<group>"; };
+		58F0F55619C45918000A5C38 /* LNKSMSSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKSMSSettingsViewController.m; sourceTree = "<group>"; };
+		58F0F55719C45918000A5C38 /* LNKSMSSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKSMSSettingsViewController.h; sourceTree = "<group>"; };
+		58F0F55A19C45F88000A5C38 /* LNKTwitterSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKTwitterSettingsViewController.m; sourceTree = "<group>"; };
+		58F0F55B19C45F88000A5C38 /* LNKTwitterSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKTwitterSettingsViewController.h; sourceTree = "<group>"; };
 		A6761D3C65B4495FA22B0A78 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		FBE45F396D1342C68693711E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -122,7 +135,6 @@
 				03E5352719C3CC26001AE495 /* Social.framework in Frameworks */,
 				03E5352319C3CBCA001AE495 /* Twitter.framework in Frameworks */,
 				03E5352119C3CBC4001AE495 /* SystemConfiguration.framework in Frameworks */,
-				03E5351F19C3CBBF001AE495 /* StoreKit.framework in Frameworks */,
 				03E5351D19C3CBBA001AE495 /* Security.framework in Frameworks */,
 				03E5351B19C3CBB5001AE495 /* QuartzCore.framework in Frameworks */,
 				03E5352519C3CC12001AE495 /* FacebookSDK.framework in Frameworks */,
@@ -153,6 +165,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		036C21F619C48B77004CF459 /* Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				036C21F319C48B72004CF459 /* LNKYoutubeSettingsViewController.h */,
+				036C21F419C48B72004CF459 /* LNKYoutubeSettingsViewController.m */,
+			);
+			name = Youtube;
+			sourceTree = "<group>";
+		};
 		038959D819C414080089E31B /* Phone */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,7 +213,6 @@
 				03E5352419C3CC12001AE495 /* FacebookSDK.framework */,
 				03E5352219C3CBCA001AE495 /* Twitter.framework */,
 				03E5352019C3CBC4001AE495 /* SystemConfiguration.framework */,
-				03E5351E19C3CBBF001AE495 /* StoreKit.framework */,
 				03E5351C19C3CBBA001AE495 /* Security.framework */,
 				03E5351A19C3CBB5001AE495 /* QuartzCore.framework */,
 				03E5351819C3CBB0001AE495 /* MobileCoreServices.framework */,
@@ -349,11 +369,52 @@
 		03FE4E4B19C4060F0014FF33 /* App Settings */ = {
 			isa = PBXGroup;
 			children = (
+				58F0F55919C45ECB000A5C38 /* Twitter */,
+				58F0F55219C45832000A5C38 /* SMS */,
+				58A96BC919C43D01006E2D63 /* Email */,
 				03A7892419C42C610056ECAD /* Spotify */,
 				03A7892019C4289A0056ECAD /* Maps */,
+				581EF18519C42F960039F79D /* Facetime */,
 				038959D819C414080089E31B /* Phone */,
+				036C21F619C48B77004CF459 /* Youtube */,
 			);
 			name = "App Settings";
+			sourceTree = "<group>";
+		};
+		581EF18519C42F960039F79D /* Facetime */ = {
+			isa = PBXGroup;
+			children = (
+				581EF18F19C435550039F79D /* LNKFacetimeSettingsViewController.h */,
+				581EF18E19C435550039F79D /* LNKFacetimeSettingsViewController.m */,
+			);
+			name = Facetime;
+			sourceTree = "<group>";
+		};
+		58A96BC919C43D01006E2D63 /* Email */ = {
+			isa = PBXGroup;
+			children = (
+				58A96BCA19C43DC2006E2D63 /* LNKEmailViewController.h */,
+				58A96BCB19C43DC2006E2D63 /* LNKEmailViewController.m */,
+			);
+			name = Email;
+			sourceTree = "<group>";
+		};
+		58F0F55219C45832000A5C38 /* SMS */ = {
+			isa = PBXGroup;
+			children = (
+				58F0F55719C45918000A5C38 /* LNKSMSSettingsViewController.h */,
+				58F0F55619C45918000A5C38 /* LNKSMSSettingsViewController.m */,
+			);
+			name = SMS;
+			sourceTree = "<group>";
+		};
+		58F0F55919C45ECB000A5C38 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				58F0F55B19C45F88000A5C38 /* LNKTwitterSettingsViewController.h */,
+				58F0F55A19C45F88000A5C38 /* LNKTwitterSettingsViewController.m */,
+			);
+			name = Twitter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,6 +467,14 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Linklyy;
 				TargetAttributes = {
+					039775CF19C3C567000A7FF7 = {
+						DevelopmentTeam = LRCHYST593;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
 					039775F019C3C567000A7FF7 = {
 						TestTargetID = 039775CF19C3C567000A7FF7;
 					};
@@ -489,15 +558,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58A96BCC19C43DC2006E2D63 /* LNKEmailViewController.m in Sources */,
 				039775E419C3C567000A7FF7 /* LNKAppDelegate.m in Sources */,
 				03A7892719C42CC60056ECAD /* LNKSpotifySettingsViewController.m in Sources */,
 				03E5353219C3CD57001AE495 /* LNKDataManager.m in Sources */,
+				58F0F55C19C45F88000A5C38 /* LNKTwitterSettingsViewController.m in Sources */,
 				039775EA19C3C567000A7FF7 /* LNKViewController.m in Sources */,
+				58F0F55819C45918000A5C38 /* LNKSMSSettingsViewController.m in Sources */,
 				03E5353619C3CD88001AE495 /* LNKLinkManager.m in Sources */,
 				03A7892319C428A40056ECAD /* LNKMapsSettingsViewController.m in Sources */,
 				038959DB19C414110089E31B /* LNKPhoneSettingsViewController.m in Sources */,
 				038959DE19C416B90089E31B /* LNKContactSelectionViewController.m in Sources */,
+				036C21F519C48B72004CF459 /* LNKYoutubeSettingsViewController.m in Sources */,
 				03FE4E4919C405FA0014FF33 /* LNKAppListViewController.m in Sources */,
+				581EF19019C435550039F79D /* LNKFacetimeSettingsViewController.m in Sources */,
 				039775E019C3C567000A7FF7 /* main.m in Sources */,
 				03E5353A19C3F366001AE495 /* NSDictionary+URLEncoding.m in Sources */,
 			);
@@ -625,6 +699,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -633,6 +709,7 @@
 				GCC_PREFIX_HEADER = "Linklyy/Linklyy-Prefix.pch";
 				INFOPLIST_FILE = "Linklyy/Linklyy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -643,6 +720,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -651,6 +730,7 @@
 				GCC_PREFIX_HEADER = "Linklyy/Linklyy-Prefix.pch";
 				INFOPLIST_FILE = "Linklyy/Linklyy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

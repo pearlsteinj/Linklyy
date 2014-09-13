@@ -40,16 +40,24 @@ objection_requires(@"dataManager")
     [dict setObject:[UIImage imageNamed:@"phone"] forKey:@"phone"];
     [dict setObject:[UIImage imageNamed:@"maps"] forKey:@"maps"];
     [dict setObject:[UIImage imageNamed:@"spotify"] forKey:@"spotify"];
+    [dict setObject:[UIImage imageNamed:@"facetime"] forKey:@"facetime"];
+    [dict setObject:[UIImage imageNamed:@"email"] forKey:@"email"];
+    [dict setObject:[UIImage imageNamed:@"sms"] forKey:@"sms"];
+    [dict setObject:[UIImage imageNamed:@"twitter"] forKey:@"twitter"];
+    [dict setObject:[UIImage imageNamed:@"youtube"] forKey:@"youtube"];
     //TODO(josh)
     return dict;
 }
 
 - (NSMutableDictionary *)getLaunchIconDictionary {
     NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
-    [dict setObject:[UIImage imageNamed:@"phone"] forKey:@"phone"];
-    [dict setObject:[UIImage imageNamed:@"maps"] forKey:@"maps"];
-    [dict setObject:[UIImage imageNamed:@"spotify"] forKey:@"spotify"];
-
+    [dict setObject:[UIImage imageNamed:@"phone_l"] forKey:@"phone"];
+    [dict setObject:[UIImage imageNamed:@"maps_l"] forKey:@"maps"];
+    [dict setObject:[UIImage imageNamed:@"spotify_l"] forKey:@"spotify"];
+    [dict setObject:[UIImage imageNamed:@"facetime_l"] forKey:@"facetime"];
+    [dict setObject:[UIImage imageNamed:@"email_l"] forKey:@"email"];
+    [dict setObject:[UIImage imageNamed:@"sms_l"] forKey:@"sms"];
+    [dict setObject:[UIImage imageNamed:@"youtube_l"] forKey:@"youtube"];
     //TODO(josh)
     return dict;
 }
