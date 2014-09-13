@@ -13,4 +13,7 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <Objection/Objection.h>
+    #import <Parse/Parse.h>
+    #import "LNKDefines.h"
 #endif

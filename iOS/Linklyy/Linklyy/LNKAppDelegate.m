@@ -9,10 +9,13 @@
 #import "LNKAppDelegate.h"
 
 @implementation LNKAppDelegate
+objection_register(LNKAppDelegate)
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    [Parse setApplicationId:@"5RhGWIKKZBc7oCaNp5Riv47DZnOCknVSZRtCvX1C"
+                  clientKey:@"hJQAiWEaTXpNL2NuJkmTaEZJBVEbDqjMdrbDL9jI"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     return YES;
 }
 							

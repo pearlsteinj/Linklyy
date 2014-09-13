@@ -21,6 +21,24 @@
 		039775F519C3C567000A7FF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039775D719C3C567000A7FF7 /* UIKit.framework */; };
 		039775FD19C3C567000A7FF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 039775FB19C3C567000A7FF7 /* InfoPlist.strings */; };
 		039775FF19C3C567000A7FF7 /* LinklyyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 039775FE19C3C567000A7FF7 /* LinklyyTests.m */; };
+		03E5350E19C3CA46001AE495 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5350B19C3CA46001AE495 /* Parse.framework */; };
+		03E5350F19C3CA46001AE495 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5350C19C3CA46001AE495 /* ParseFacebookUtils.framework */; };
+		03E5351119C3CB94001AE495 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5351019C3CB94001AE495 /* AudioToolbox.framework */; };
+		03E5351319C3CB98001AE495 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5351219C3CB98001AE495 /* CFNetwork.framework */; };
+		03E5351519C3CBA2001AE495 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5351419C3CBA2001AE495 /* CoreLocation.framework */; };
+		03E5351719C3CBAB001AE495 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5351619C3CBAB001AE495 /* libz.dylib */; };
+		03E5351919C3CBB0001AE495 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5351819C3CBB0001AE495 /* MobileCoreServices.framework */; };
+		03E5351B19C3CBB5001AE495 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5351A19C3CBB5001AE495 /* QuartzCore.framework */; };
+		03E5351D19C3CBBA001AE495 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5351C19C3CBBA001AE495 /* Security.framework */; };
+		03E5351F19C3CBBF001AE495 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5351E19C3CBBF001AE495 /* StoreKit.framework */; };
+		03E5352119C3CBC4001AE495 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5352019C3CBC4001AE495 /* SystemConfiguration.framework */; };
+		03E5352319C3CBCA001AE495 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5352219C3CBCA001AE495 /* Twitter.framework */; };
+		03E5352519C3CC12001AE495 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5352419C3CC12001AE495 /* FacebookSDK.framework */; };
+		03E5352719C3CC26001AE495 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5352619C3CC26001AE495 /* Social.framework */; };
+		03E5352919C3CC2A001AE495 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5352819C3CC2A001AE495 /* Accounts.framework */; };
+		03E5353219C3CD57001AE495 /* LNKDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5353119C3CD57001AE495 /* LNKDataManager.m */; };
+		03E5353619C3CD88001AE495 /* LNKLinkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5353519C3CD88001AE495 /* LNKLinkManager.m */; };
+		5EC886C843BB4CB0A95183A1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE45F396D1342C68693711E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +71,28 @@
 		039775FA19C3C567000A7FF7 /* LinklyyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinklyyTests-Info.plist"; sourceTree = "<group>"; };
 		039775FC19C3C567000A7FF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		039775FE19C3C567000A7FF7 /* LinklyyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinklyyTests.m; sourceTree = "<group>"; };
+		03E5350B19C3CA46001AE495 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		03E5350C19C3CA46001AE495 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		03E5351019C3CB94001AE495 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		03E5351219C3CB98001AE495 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		03E5351419C3CBA2001AE495 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		03E5351619C3CBAB001AE495 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		03E5351819C3CBB0001AE495 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		03E5351A19C3CBB5001AE495 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		03E5351C19C3CBBA001AE495 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		03E5351E19C3CBBF001AE495 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		03E5352019C3CBC4001AE495 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		03E5352219C3CBCA001AE495 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		03E5352419C3CC12001AE495 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		03E5352619C3CC26001AE495 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		03E5352819C3CC2A001AE495 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		03E5352C19C3CC77001AE495 /* LNKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKDefines.h; sourceTree = "<group>"; };
+		03E5353019C3CD57001AE495 /* LNKDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKDataManager.h; sourceTree = "<group>"; };
+		03E5353119C3CD57001AE495 /* LNKDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKDataManager.m; sourceTree = "<group>"; };
+		03E5353419C3CD88001AE495 /* LNKLinkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKLinkManager.h; sourceTree = "<group>"; };
+		03E5353519C3CD88001AE495 /* LNKLinkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKLinkManager.m; sourceTree = "<group>"; };
+		A6761D3C65B4495FA22B0A78 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FBE45F396D1342C68693711E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +100,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E5352919C3CC2A001AE495 /* Accounts.framework in Frameworks */,
+				03E5352719C3CC26001AE495 /* Social.framework in Frameworks */,
+				03E5352319C3CBCA001AE495 /* Twitter.framework in Frameworks */,
+				03E5352119C3CBC4001AE495 /* SystemConfiguration.framework in Frameworks */,
+				03E5351F19C3CBBF001AE495 /* StoreKit.framework in Frameworks */,
+				03E5351D19C3CBBA001AE495 /* Security.framework in Frameworks */,
+				03E5351B19C3CBB5001AE495 /* QuartzCore.framework in Frameworks */,
+				03E5352519C3CC12001AE495 /* FacebookSDK.framework in Frameworks */,
+				03E5351919C3CBB0001AE495 /* MobileCoreServices.framework in Frameworks */,
+				03E5351719C3CBAB001AE495 /* libz.dylib in Frameworks */,
+				03E5351519C3CBA2001AE495 /* CoreLocation.framework in Frameworks */,
 				039775D619C3C567000A7FF7 /* CoreGraphics.framework in Frameworks */,
+				03E5351319C3CB98001AE495 /* CFNetwork.framework in Frameworks */,
+				03E5351119C3CB94001AE495 /* AudioToolbox.framework in Frameworks */,
+				03E5350F19C3CA46001AE495 /* ParseFacebookUtils.framework in Frameworks */,
 				039775D819C3C567000A7FF7 /* UIKit.framework in Frameworks */,
 				039775D419C3C567000A7FF7 /* Foundation.framework in Frameworks */,
+				03E5350E19C3CA46001AE495 /* Parse.framework in Frameworks */,
+				5EC886C843BB4CB0A95183A1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +142,7 @@
 				039775F819C3C567000A7FF7 /* LinklyyTests */,
 				039775D219C3C567000A7FF7 /* Frameworks */,
 				039775D119C3C567000A7FF7 /* Products */,
+				A6761D3C65B4495FA22B0A78 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +158,26 @@
 		039775D219C3C567000A7FF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				03E5352819C3CC2A001AE495 /* Accounts.framework */,
+				03E5352619C3CC26001AE495 /* Social.framework */,
+				03E5352419C3CC12001AE495 /* FacebookSDK.framework */,
+				03E5352219C3CBCA001AE495 /* Twitter.framework */,
+				03E5352019C3CBC4001AE495 /* SystemConfiguration.framework */,
+				03E5351E19C3CBBF001AE495 /* StoreKit.framework */,
+				03E5351C19C3CBBA001AE495 /* Security.framework */,
+				03E5351A19C3CBB5001AE495 /* QuartzCore.framework */,
+				03E5351819C3CBB0001AE495 /* MobileCoreServices.framework */,
+				03E5351619C3CBAB001AE495 /* libz.dylib */,
+				03E5351419C3CBA2001AE495 /* CoreLocation.framework */,
+				03E5351219C3CB98001AE495 /* CFNetwork.framework */,
+				03E5351019C3CB94001AE495 /* AudioToolbox.framework */,
+				03E5350B19C3CA46001AE495 /* Parse.framework */,
+				03E5350C19C3CA46001AE495 /* ParseFacebookUtils.framework */,
 				039775D319C3C567000A7FF7 /* Foundation.framework */,
 				039775D519C3C567000A7FF7 /* CoreGraphics.framework */,
 				039775D719C3C567000A7FF7 /* UIKit.framework */,
 				039775F219C3C567000A7FF7 /* XCTest.framework */,
+				FBE45F396D1342C68693711E /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +185,13 @@
 		039775D919C3C567000A7FF7 /* Linklyy */ = {
 			isa = PBXGroup;
 			children = (
-				039775E219C3C567000A7FF7 /* LNKAppDelegate.h */,
-				039775E319C3C567000A7FF7 /* LNKAppDelegate.m */,
 				039775E519C3C567000A7FF7 /* Main.storyboard */,
-				039775E819C3C567000A7FF7 /* LNKViewController.h */,
-				039775E919C3C567000A7FF7 /* LNKViewController.m */,
+				03E5352A19C3CC4D001AE495 /* AppDelegate */,
+				03E5352F19C3CD08001AE495 /* Communication */,
+				03E5352B19C3CC5A001AE495 /* Defines */,
+				03E5353319C3CD76001AE495 /* Link Utilities */,
+				03E5352E19C3CC90001AE495 /* Subviews */,
+				03E5352D19C3CC81001AE495 /* ViewControllers */,
 				039775EB19C3C567000A7FF7 /* Images.xcassets */,
 				039775DA19C3C567000A7FF7 /* Supporting Files */,
 			);
@@ -152,6 +227,57 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		03E5352A19C3CC4D001AE495 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				039775E219C3C567000A7FF7 /* LNKAppDelegate.h */,
+				039775E319C3C567000A7FF7 /* LNKAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		03E5352B19C3CC5A001AE495 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				03E5352C19C3CC77001AE495 /* LNKDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		03E5352D19C3CC81001AE495 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				039775E819C3C567000A7FF7 /* LNKViewController.h */,
+				039775E919C3C567000A7FF7 /* LNKViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		03E5352E19C3CC90001AE495 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Subviews;
+			sourceTree = "<group>";
+		};
+		03E5352F19C3CD08001AE495 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				03E5353019C3CD57001AE495 /* LNKDataManager.h */,
+				03E5353119C3CD57001AE495 /* LNKDataManager.m */,
+			);
+			name = Communication;
+			sourceTree = "<group>";
+		};
+		03E5353319C3CD76001AE495 /* Link Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				03E5353419C3CD88001AE495 /* LNKLinkManager.h */,
+				03E5353519C3CD88001AE495 /* LNKLinkManager.m */,
+			);
+			name = "Link Utilities";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0397760219C3C567000A7FF7 /* Build configuration list for PBXNativeTarget "Linklyy" */;
 			buildPhases = (
+				B032928F31A64E19BC834EF0 /* Check Pods Manifest.lock */,
 				039775CC19C3C567000A7FF7 /* Sources */,
 				039775CD19C3C567000A7FF7 /* Frameworks */,
 				039775CE19C3C567000A7FF7 /* Resources */,
+				FF80E4E22D4F46068352FCD7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,13 +373,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B032928F31A64E19BC834EF0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF80E4E22D4F46068352FCD7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		039775CC19C3C567000A7FF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				039775E419C3C567000A7FF7 /* LNKAppDelegate.m in Sources */,
+				03E5353219C3CD57001AE495 /* LNKDataManager.m in Sources */,
 				039775EA19C3C567000A7FF7 /* LNKViewController.m in Sources */,
+				03E5353619C3CD88001AE495 /* LNKLinkManager.m in Sources */,
 				039775E019C3C567000A7FF7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,9 +537,14 @@
 		};
 		0397760319C3C567000A7FF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6761D3C65B4495FA22B0A78 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Linklyy/Linklyy-Prefix.pch";
 				INFOPLIST_FILE = "Linklyy/Linklyy-Info.plist";
@@ -387,9 +555,14 @@
 		};
 		0397760419C3C567000A7FF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6761D3C65B4495FA22B0A78 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Linklyy/Linklyy-Prefix.pch";
 				INFOPLIST_FILE = "Linklyy/Linklyy-Info.plist";
@@ -457,6 +630,7 @@
 				0397760419C3C567000A7FF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0397760519C3C567000A7FF7 /* Build configuration list for PBXNativeTarget "LinklyyTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +639,7 @@
 				0397760719C3C567000A7FF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
