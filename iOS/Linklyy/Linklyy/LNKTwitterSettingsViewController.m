@@ -44,7 +44,8 @@
     [self.linkManager openLinkWithAppName:@"twitter"
                                   andLink:[NSString stringWithFormat:@"twitter:/user?screen_name=%@",name]
                                 andParams:[@{} mutableCopy]
-                                 andTitle:@"Twitter"];
+                                 andTitle:@"Twitter"
+                                  andInfo:[NSString stringWithFormat:@"Twitter Handle: %@",name]];
 }
 
 @end

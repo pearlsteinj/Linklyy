@@ -44,7 +44,8 @@
     [self.linkManager openLinkWithAppName:@"spotify"
                                   andLink:[NSString stringWithFormat:@"spotify:search:%@",name]
                                 andParams:[@{} mutableCopy]
-                                 andTitle:@"Spotify"];
+                                 andTitle:@"Spotify"
+                                  andInfo:[NSString stringWithFormat:@"Spotify Playlist: %@",name]];
 }
 
 @end

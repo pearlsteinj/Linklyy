@@ -43,7 +43,8 @@
     [self.linkManager openLinkWithAppName:@"maps"
                                   andLink:@"comgooglemaps://?"
                                 andParams:[@{(directions ? @"q": @"daddr"):location} mutableCopy]
-                                 andTitle:@"Maps"];
+                                 andTitle:@"Maps"
+                                  andInfo:location];
 }
 
 

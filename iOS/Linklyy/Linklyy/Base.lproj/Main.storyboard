@@ -81,6 +81,15 @@
                                     <segue destination="pB1-7s-wgw" kind="push" id="4PY-iU-Rnn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxS-wW-qsb">
+                                <rect key="frame" x="38" y="374" width="59" height="60"/>
+                                <state key="normal" image="pinterest">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="65i-x7-S4a" kind="push" id="tp8-9k-qfp"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qt-fy-sXy">
                                 <rect key="frame" x="224" y="374" width="59" height="60"/>
                                 <state key="normal" image="youtube">
@@ -291,7 +300,87 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J1a-UX-MaX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-52" y="-2383"/>
+            <point key="canvasLocation" x="184" y="-2897"/>
+        </scene>
+        <!--Pinterest Settings View Controller-->
+        <scene sceneID="G9U-MP-SPP">
+            <objects>
+                <viewController id="65i-x7-S4a" customClass="LNKPinterestSettingsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yl5-Jo-aKd"/>
+                        <viewControllerLayoutGuide type="bottom" id="3bE-jM-12v"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Af-ay-P1O">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="settings_background" translatesAutoresizingMaskIntoConstraints="NO" id="bzV-XL-4Yo">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="ubw-kM-5jA">
+                                <rect key="frame" x="141" y="376" width="37" height="37"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efF-jV-wCa">
+                                <rect key="frame" x="17" y="435.5" width="286.5" height="89.5"/>
+                                <state key="normal" image="submit_button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doneButtonPressed:" destination="65i-x7-S4a" eventType="touchUpInside" id="Edb-hs-LdX"/>
+                                    <action selector="doneButtonPressed:" destination="GT3-R5-Lrs" eventType="touchUpInside" id="F27-D5-QMf"/>
+                                    <action selector="doneButtonPressed:" destination="f0x-Lf-vKf" eventType="touchUpInside" id="cD4-gd-bAS"/>
+                                    <action selector="doneButtonPressed:" destination="vW6-RI-KKG" eventType="touchUpInside" id="fzp-if-LAD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Wl-ET-pEJ">
+                                <rect key="frame" x="45" y="87" width="220" height="45"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Input Board Name">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPT-LD-tj6">
+                                <rect key="frame" x="45" y="192" width="220" height="45"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Input User Name">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" placeholder="Video ID" minimumFontSize="17" background="textbox" translatesAutoresizingMaskIntoConstraints="NO" id="zEn-U1-jOy">
+                                <rect key="frame" x="11" y="140" width="289" height="51"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" placeholder="Video ID" minimumFontSize="17" background="textbox" translatesAutoresizingMaskIntoConstraints="NO" id="42V-gw-KPT">
+                                <rect key="frame" x="11" y="237" width="289" height="51"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BfA-8p-3uR"/>
+                    <connections>
+                        <outlet property="activityInd" destination="ubw-kM-5jA" id="aln-xD-h5q"/>
+                        <outlet property="textField" destination="zEn-U1-jOy" id="VvJ-qR-GbK"/>
+                        <outlet property="textField2" destination="42V-gw-KPT" id="pI5-wg-cPs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sb2-Ac-kBk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="184" y="-2230"/>
         </scene>
         <!--Maps Settings View Controller-->
         <scene sceneID="WcY-Xv-K0I">
@@ -716,6 +805,7 @@
         <image name="list_background" width="640" height="1136"/>
         <image name="maps" width="120" height="120"/>
         <image name="phone" width="120" height="120"/>
+        <image name="pinterest" width="120" height="120"/>
         <image name="settings_background" width="640" height="1136"/>
         <image name="sms" width="120" height="120"/>
         <image name="spotify" width="120" height="120"/>

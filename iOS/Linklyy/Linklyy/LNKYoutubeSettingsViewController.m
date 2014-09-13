@@ -44,7 +44,8 @@
     [self.linkManager openLinkWithAppName:@"youtube"
                                   andLink:[NSString stringWithFormat:@"http://www.youtube.com/watch?v=%@",name]
                                 andParams:[@{} mutableCopy]
-                                 andTitle:@"Youtube"];
+                                 andTitle:@"Youtube"
+                                  andInfo:[NSString stringWithFormat:@"Watch %@", name]];
 }
 
 

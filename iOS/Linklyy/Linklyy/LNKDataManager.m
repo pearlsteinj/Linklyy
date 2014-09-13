@@ -15,6 +15,7 @@ objection_register_singleton(LNKDataManager)
           withIcon:(UIImage *)icon
     andLaunchImage:(UIImage *)launch
           andTitle:(NSString *)title
+           andInfo:(NSString *)info
       withCallback:(void (^)(NSString *))callback {
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     [params setObject:link forKey:@"link"];
@@ -25,6 +26,8 @@ objection_register_singleton(LNKDataManager)
         [launchFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
             [params setObject:[iconFile url] forKey:@"icon"];
             [params setObject:[launchFile url] forKey:@"launch"];
+            [params setObject:[self getPromptForType:title] forKey:@"prompt"];
+            [params setObject:info forKey:@"info"];
             [PFCloud callFunctionInBackground:@"createLink"
                                withParameters:params
                                         block:^(id object, NSError *error) {
@@ -37,5 +40,14 @@ objection_register_singleton(LNKDataManager)
                                         }];
         }];
     }];
+}
+
+
+- (NSString *)getPromptForType:(NSString *)type {
+    return @"Single tap this shortcut to instantly link to your action.";
+}
+
+- (NSMutableDictionary *)getDict {
+    return nil;
 }
 @end

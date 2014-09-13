@@ -26,6 +26,8 @@
 		039775FF19C3C567000A7FF7 /* LinklyyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 039775FE19C3C567000A7FF7 /* LinklyyTests.m */; };
 		03A7892319C428A40056ECAD /* LNKMapsSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7892219C428A40056ECAD /* LNKMapsSettingsViewController.m */; };
 		03A7892719C42CC60056ECAD /* LNKSpotifySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7892619C42CC60056ECAD /* LNKSpotifySettingsViewController.m */; };
+		03D7019719C4B05300E4F6A4 /* LNKPinterestSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D7019619C4B05300E4F6A4 /* LNKPinterestSettingsViewController.m */; };
+		03D7019F19C4BFF100E4F6A4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D7019E19C4BFF100E4F6A4 /* StoreKit.framework */; };
 		03E5350E19C3CA46001AE495 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5350B19C3CA46001AE495 /* Parse.framework */; };
 		03E5350F19C3CA46001AE495 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5350C19C3CA46001AE495 /* ParseFacebookUtils.framework */; };
 		03E5351119C3CB94001AE495 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5351019C3CB94001AE495 /* AudioToolbox.framework */; };
@@ -91,6 +93,10 @@
 		03A7892219C428A40056ECAD /* LNKMapsSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKMapsSettingsViewController.m; sourceTree = "<group>"; };
 		03A7892519C42CC60056ECAD /* LNKSpotifySettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKSpotifySettingsViewController.h; sourceTree = "<group>"; };
 		03A7892619C42CC60056ECAD /* LNKSpotifySettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKSpotifySettingsViewController.m; sourceTree = "<group>"; };
+		03D7019519C4B05300E4F6A4 /* LNKPinterestSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKPinterestSettingsViewController.h; sourceTree = "<group>"; };
+		03D7019619C4B05300E4F6A4 /* LNKPinterestSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKPinterestSettingsViewController.m; sourceTree = "<group>"; };
+		03D7019C19C4BF7100E4F6A4 /* UIWebClip+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWebClip+Private.h"; sourceTree = "<group>"; };
+		03D7019E19C4BFF100E4F6A4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		03E5350B19C3CA46001AE495 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		03E5350C19C3CA46001AE495 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		03E5351019C3CB94001AE495 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -131,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03D7019F19C4BFF100E4F6A4 /* StoreKit.framework in Frameworks */,
 				03E5352919C3CC2A001AE495 /* Accounts.framework in Frameworks */,
 				03E5352719C3CC26001AE495 /* Social.framework in Frameworks */,
 				03E5352319C3CBCA001AE495 /* Twitter.framework in Frameworks */,
@@ -208,6 +215,8 @@
 		039775D219C3C567000A7FF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				03D7019E19C4BFF100E4F6A4 /* StoreKit.framework */,
+				03D7019C19C4BF7100E4F6A4 /* UIWebClip+Private.h */,
 				03E5352819C3CC2A001AE495 /* Accounts.framework */,
 				03E5352619C3CC26001AE495 /* Social.framework */,
 				03E5352419C3CC12001AE495 /* FacebookSDK.framework */,
@@ -295,6 +304,15 @@
 			name = Spotify;
 			sourceTree = "<group>";
 		};
+		03D7019819C4B05700E4F6A4 /* Pinterest */ = {
+			isa = PBXGroup;
+			children = (
+				03D7019519C4B05300E4F6A4 /* LNKPinterestSettingsViewController.h */,
+				03D7019619C4B05300E4F6A4 /* LNKPinterestSettingsViewController.m */,
+			);
+			name = Pinterest;
+			sourceTree = "<group>";
+		};
 		03E5352A19C3CC4D001AE495 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,6 +395,7 @@
 				581EF18519C42F960039F79D /* Facetime */,
 				038959D819C414080089E31B /* Phone */,
 				036C21F619C48B77004CF459 /* Youtube */,
+				03D7019819C4B05700E4F6A4 /* Pinterest */,
 			);
 			name = "App Settings";
 			sourceTree = "<group>";
@@ -572,6 +591,7 @@
 				036C21F519C48B72004CF459 /* LNKYoutubeSettingsViewController.m in Sources */,
 				03FE4E4919C405FA0014FF33 /* LNKAppListViewController.m in Sources */,
 				581EF19019C435550039F79D /* LNKFacetimeSettingsViewController.m in Sources */,
+				03D7019719C4B05300E4F6A4 /* LNKPinterestSettingsViewController.m in Sources */,
 				039775E019C3C567000A7FF7 /* main.m in Sources */,
 				03E5353A19C3F366001AE495 /* NSDictionary+URLEncoding.m in Sources */,
 			);
@@ -708,6 +728,19 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Linklyy/Linklyy-Prefix.pch";
 				INFOPLIST_FILE = "Linklyy/Linklyy-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					AddressBook,
+					"-framework",
+					AddressBookUI,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreLocation,
+					"-framework",
+					UIKit,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -729,6 +762,19 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Linklyy/Linklyy-Prefix.pch";
 				INFOPLIST_FILE = "Linklyy/Linklyy-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					AddressBook,
+					"-framework",
+					AddressBookUI,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreLocation,
+					"-framework",
+					UIKit,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;

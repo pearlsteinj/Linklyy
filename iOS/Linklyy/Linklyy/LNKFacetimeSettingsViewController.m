@@ -74,7 +74,8 @@ objection_requires(@"linkManager", @"dataManager")
     [self.linkManager openLinkWithAppName:@"facetime"
                                   andLink:[NSString stringWithFormat:@"facetime:%@",self.selectedPhoneNum]
                                 andParams:[@{} mutableCopy]
-                                 andTitle:@"Facetime"];
+                                 andTitle:@"Facetime"
+                                  andInfo:[NSString stringWithFormat:@"Facetime with %@",self.selectedPhoneNum]];
 }
 
 #pragma mark - Private

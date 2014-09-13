@@ -74,7 +74,8 @@ objection_requires(@"linkManager", @"dataManager")
     [self.linkManager openLinkWithAppName:@"sms"
                                   andLink:[NSString stringWithFormat:@"sms:%@",self.selectedPhoneNum]
                                 andParams:[@{} mutableCopy]
-                                 andTitle:@"SMS"];
+                                 andTitle:@"SMS"
+                                  andInfo:[NSString stringWithFormat:@"Text %@",self.selectedPhoneNum]];
 }
 
 #pragma mark - Private

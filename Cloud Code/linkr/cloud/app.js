@@ -23,12 +23,13 @@ app.get('/:hash', function(request,response) {
 		var iconURL = lnk.get("iconImage");
 		var launchURL = lnk.get("launchImage");
 		var title = lnk.get("title");
+		var prompt = lnk.get("prompt");
+		var info = lnk.get("info");
 		Parse.Cloud.httpRequest({
   			url: launchURL,
   			success: function(httpResponse) {
   				var img = httpResponse.buffer.toString('base64');
-  				console.log(img);
-  				response.render('icon', {link:linked, iURL:iconURL, lURL:img, title:title});
+  				response.render('icon', {link:linked, iURL:iconURL, lURL:img, title:title, prompt:prompt, info:info});
   			},
   			error: function(httpResponse) {
    				console.error('Request failed with response code ' + httpResponse.status);

@@ -18,6 +18,7 @@
           withIcon:(UIImage *)icon
     andLaunchImage:(UIImage *)launch
           andTitle:(NSString *)title
+           andInfo:(NSString *)info
       withCallback:(void (^)(NSString *))callback;
 
 @end

@@ -49,7 +49,8 @@
     [self.linkManager openLinkWithAppName:@"email"
                                   andLink:[NSString stringWithFormat:@"mailto:%@?subject=%@&body=%@",email,subject,body]
                                 andParams:[@{} mutableCopy]
-                                 andTitle:@"Email"];
+                                 andTitle:@"Email"
+                                  andInfo:[NSString stringWithFormat:@"Email %@", email]];
 }
 
 @end

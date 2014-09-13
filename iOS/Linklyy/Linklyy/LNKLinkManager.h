@@ -6,8 +6,6 @@
 //  Copyright (c) 2014 Linklyy. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
 @class LNKDataManager;
 
 @interface LNKLinkManager : NSObject
@@ -18,6 +16,7 @@
 - (void)openLinkWithAppName:(NSString *)appName
                     andLink:(NSString *)link
                   andParams:(NSMutableDictionary *)params
-                   andTitle:(NSString *)title;
+                   andTitle:(NSString *)title
+                    andInfo:(NSString *)info;
 
 @end
