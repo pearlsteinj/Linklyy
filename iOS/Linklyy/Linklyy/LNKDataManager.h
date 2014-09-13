@@ -10,4 +10,12 @@
 
 @interface LNKDataManager : NSObject
 
+// Register a link with the server. Callback response will be the hash location
+// of the icon.
+- (void)createLink:(NSString *)link
+          withIcon:(UIImage *)icon
+    andLaunchImage:(UIImage *)launch
+          andTitle:(NSString *)title
+      withCallback:(void (^)(NSString *))callback;
+
 @end

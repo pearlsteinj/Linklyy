@@ -13,9 +13,15 @@ objection_register(LNKAppDelegate)
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    // Parse
     [Parse setApplicationId:@"5RhGWIKKZBc7oCaNp5Riv47DZnOCknVSZRtCvX1C"
                   clientKey:@"hJQAiWEaTXpNL2NuJkmTaEZJBVEbDqjMdrbDL9jI"];
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    // Objection
+    JSObjectionInjector *injector = [JSObjection createInjector];
+    [JSObjection setDefaultInjector:injector];
+    
     return YES;
 }
 							

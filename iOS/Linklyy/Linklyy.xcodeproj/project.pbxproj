@@ -38,6 +38,7 @@
 		03E5352919C3CC2A001AE495 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5352819C3CC2A001AE495 /* Accounts.framework */; };
 		03E5353219C3CD57001AE495 /* LNKDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5353119C3CD57001AE495 /* LNKDataManager.m */; };
 		03E5353619C3CD88001AE495 /* LNKLinkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5353519C3CD88001AE495 /* LNKLinkManager.m */; };
+		03E5353A19C3F366001AE495 /* NSDictionary+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5353919C3F366001AE495 /* NSDictionary+URLEncoding.m */; };
 		5EC886C843BB4CB0A95183A1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE45F396D1342C68693711E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +92,8 @@
 		03E5353119C3CD57001AE495 /* LNKDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKDataManager.m; sourceTree = "<group>"; };
 		03E5353419C3CD88001AE495 /* LNKLinkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKLinkManager.h; sourceTree = "<group>"; };
 		03E5353519C3CD88001AE495 /* LNKLinkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKLinkManager.m; sourceTree = "<group>"; };
+		03E5353819C3F366001AE495 /* NSDictionary+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+URLEncoding.h"; sourceTree = "<group>"; };
+		03E5353919C3F366001AE495 /* NSDictionary+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URLEncoding.m"; sourceTree = "<group>"; };
 		A6761D3C65B4495FA22B0A78 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		FBE45F396D1342C68693711E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -190,6 +193,7 @@
 				03E5352F19C3CD08001AE495 /* Communication */,
 				03E5352B19C3CC5A001AE495 /* Defines */,
 				03E5353319C3CD76001AE495 /* Link Utilities */,
+				03E5353719C3F338001AE495 /* Subclasses */,
 				03E5352E19C3CC90001AE495 /* Subviews */,
 				03E5352D19C3CC81001AE495 /* ViewControllers */,
 				039775EB19C3C567000A7FF7 /* Images.xcassets */,
@@ -276,6 +280,15 @@
 				03E5353519C3CD88001AE495 /* LNKLinkManager.m */,
 			);
 			name = "Link Utilities";
+			sourceTree = "<group>";
+		};
+		03E5353719C3F338001AE495 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				03E5353819C3F366001AE495 /* NSDictionary+URLEncoding.h */,
+				03E5353919C3F366001AE495 /* NSDictionary+URLEncoding.m */,
+			);
+			name = Subclasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,6 +429,7 @@
 				039775EA19C3C567000A7FF7 /* LNKViewController.m in Sources */,
 				03E5353619C3CD88001AE495 /* LNKLinkManager.m in Sources */,
 				039775E019C3C567000A7FF7 /* main.m in Sources */,
+				03E5353A19C3F366001AE495 /* NSDictionary+URLEncoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

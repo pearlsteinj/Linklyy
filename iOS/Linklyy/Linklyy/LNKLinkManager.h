@@ -8,6 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
+@class LNKDataManager;
+
 @interface LNKLinkManager : NSObject
+
+// Injected
+@property(nonatomic) LNKDataManager *dataManager;
+
+- (void)openLinkWithAppName:(NSString *)appName
+                    andLink:(NSString *)link
+                  andParams:(NSMutableDictionary *)params
+                   andTitle:(NSString *)title;
 
 @end
