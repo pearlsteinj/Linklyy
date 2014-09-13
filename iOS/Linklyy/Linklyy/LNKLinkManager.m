@@ -38,6 +38,8 @@ objection_requires(@"dataManager")
 - (NSMutableDictionary *)getIconDictionary {
     NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
     [dict setObject:[UIImage imageNamed:@"phone"] forKey:@"phone"];
+    [dict setObject:[UIImage imageNamed:@"maps"] forKey:@"maps"];
+    [dict setObject:[UIImage imageNamed:@"spotify"] forKey:@"spotify"];
     //TODO(josh)
     return dict;
 }
@@ -45,6 +47,9 @@ objection_requires(@"dataManager")
 - (NSMutableDictionary *)getLaunchIconDictionary {
     NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
     [dict setObject:[UIImage imageNamed:@"phone"] forKey:@"phone"];
+    [dict setObject:[UIImage imageNamed:@"maps"] forKey:@"maps"];
+    [dict setObject:[UIImage imageNamed:@"spotify"] forKey:@"spotify"];
+
     //TODO(josh)
     return dict;
 }

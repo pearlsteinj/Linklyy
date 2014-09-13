@@ -23,6 +23,8 @@
 		039775F519C3C567000A7FF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039775D719C3C567000A7FF7 /* UIKit.framework */; };
 		039775FD19C3C567000A7FF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 039775FB19C3C567000A7FF7 /* InfoPlist.strings */; };
 		039775FF19C3C567000A7FF7 /* LinklyyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 039775FE19C3C567000A7FF7 /* LinklyyTests.m */; };
+		03A7892319C428A40056ECAD /* LNKMapsSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7892219C428A40056ECAD /* LNKMapsSettingsViewController.m */; };
+		03A7892719C42CC60056ECAD /* LNKSpotifySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7892619C42CC60056ECAD /* LNKSpotifySettingsViewController.m */; };
 		03E5350E19C3CA46001AE495 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5350B19C3CA46001AE495 /* Parse.framework */; };
 		03E5350F19C3CA46001AE495 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5350C19C3CA46001AE495 /* ParseFacebookUtils.framework */; };
 		03E5351119C3CB94001AE495 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E5351019C3CB94001AE495 /* AudioToolbox.framework */; };
@@ -79,6 +81,10 @@
 		039775FA19C3C567000A7FF7 /* LinklyyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinklyyTests-Info.plist"; sourceTree = "<group>"; };
 		039775FC19C3C567000A7FF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		039775FE19C3C567000A7FF7 /* LinklyyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinklyyTests.m; sourceTree = "<group>"; };
+		03A7892119C428A40056ECAD /* LNKMapsSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKMapsSettingsViewController.h; sourceTree = "<group>"; };
+		03A7892219C428A40056ECAD /* LNKMapsSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKMapsSettingsViewController.m; sourceTree = "<group>"; };
+		03A7892519C42CC60056ECAD /* LNKSpotifySettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKSpotifySettingsViewController.h; sourceTree = "<group>"; };
+		03A7892619C42CC60056ECAD /* LNKSpotifySettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKSpotifySettingsViewController.m; sourceTree = "<group>"; };
 		03E5350B19C3CA46001AE495 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		03E5350C19C3CA46001AE495 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		03E5351019C3CB94001AE495 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -251,6 +257,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		03A7892019C4289A0056ECAD /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				03A7892119C428A40056ECAD /* LNKMapsSettingsViewController.h */,
+				03A7892219C428A40056ECAD /* LNKMapsSettingsViewController.m */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		03A7892419C42C610056ECAD /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				03A7892519C42CC60056ECAD /* LNKSpotifySettingsViewController.h */,
+				03A7892619C42CC60056ECAD /* LNKSpotifySettingsViewController.m */,
+			);
+			name = Spotify;
+			sourceTree = "<group>";
+		};
 		03E5352A19C3CC4D001AE495 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -325,6 +349,8 @@
 		03FE4E4B19C4060F0014FF33 /* App Settings */ = {
 			isa = PBXGroup;
 			children = (
+				03A7892419C42C610056ECAD /* Spotify */,
+				03A7892019C4289A0056ECAD /* Maps */,
 				038959D819C414080089E31B /* Phone */,
 			);
 			name = "App Settings";
@@ -464,9 +490,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				039775E419C3C567000A7FF7 /* LNKAppDelegate.m in Sources */,
+				03A7892719C42CC60056ECAD /* LNKSpotifySettingsViewController.m in Sources */,
 				03E5353219C3CD57001AE495 /* LNKDataManager.m in Sources */,
 				039775EA19C3C567000A7FF7 /* LNKViewController.m in Sources */,
 				03E5353619C3CD88001AE495 /* LNKLinkManager.m in Sources */,
+				03A7892319C428A40056ECAD /* LNKMapsSettingsViewController.m in Sources */,
 				038959DB19C414110089E31B /* LNKPhoneSettingsViewController.m in Sources */,
 				038959DE19C416B90089E31B /* LNKContactSelectionViewController.m in Sources */,
 				03FE4E4919C405FA0014FF33 /* LNKAppListViewController.m in Sources */,
