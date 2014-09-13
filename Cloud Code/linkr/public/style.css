@@ -1,0 +1,21 @@
+.centered {
+  position: fixed;
+  left: 50%;
+  margin-top: 90px;
+  margin-left:-50px;
+}
+
+.top {
+	position: fixed;
+	left:50%;
+	margin-top: 5px;
+	margin-left:-40px;
+}
+
+.text {
+	position: fixed;
+	left: 50%;
+	color:white;
+	margin-top: 250px;
+	margin-left: -100px;
+}
