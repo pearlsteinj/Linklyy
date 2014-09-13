@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		038959DB19C414110089E31B /* LNKPhoneSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038959DA19C414110089E31B /* LNKPhoneSettingsViewController.m */; };
+		038959DE19C416B90089E31B /* LNKContactSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038959DD19C416B90089E31B /* LNKContactSelectionViewController.m */; };
 		039775D419C3C567000A7FF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039775D319C3C567000A7FF7 /* Foundation.framework */; };
 		039775D619C3C567000A7FF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039775D519C3C567000A7FF7 /* CoreGraphics.framework */; };
 		039775D819C3C567000A7FF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039775D719C3C567000A7FF7 /* UIKit.framework */; };
@@ -40,7 +42,6 @@
 		03E5353619C3CD88001AE495 /* LNKLinkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5353519C3CD88001AE495 /* LNKLinkManager.m */; };
 		03E5353A19C3F366001AE495 /* NSDictionary+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5353919C3F366001AE495 /* NSDictionary+URLEncoding.m */; };
 		03FE4E4919C405FA0014FF33 /* LNKAppListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FE4E4819C405FA0014FF33 /* LNKAppListViewController.m */; };
-		03FE4E4E19C4061C0014FF33 /* LNKAppSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FE4E4D19C4061C0014FF33 /* LNKAppSettingsViewController.m */; };
 		5EC886C843BB4CB0A95183A1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE45F396D1342C68693711E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		038959D919C414110089E31B /* LNKPhoneSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKPhoneSettingsViewController.h; sourceTree = "<group>"; };
+		038959DA19C414110089E31B /* LNKPhoneSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKPhoneSettingsViewController.m; sourceTree = "<group>"; };
+		038959DC19C416B90089E31B /* LNKContactSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKContactSelectionViewController.h; sourceTree = "<group>"; };
+		038959DD19C416B90089E31B /* LNKContactSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKContactSelectionViewController.m; sourceTree = "<group>"; };
 		039775D019C3C567000A7FF7 /* Linklyy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linklyy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		039775D319C3C567000A7FF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		039775D519C3C567000A7FF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -98,8 +103,6 @@
 		03E5353919C3F366001AE495 /* NSDictionary+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URLEncoding.m"; sourceTree = "<group>"; };
 		03FE4E4719C405FA0014FF33 /* LNKAppListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKAppListViewController.h; sourceTree = "<group>"; };
 		03FE4E4819C405FA0014FF33 /* LNKAppListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKAppListViewController.m; sourceTree = "<group>"; };
-		03FE4E4C19C4061C0014FF33 /* LNKAppSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKAppSettingsViewController.h; sourceTree = "<group>"; };
-		03FE4E4D19C4061C0014FF33 /* LNKAppSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKAppSettingsViewController.m; sourceTree = "<group>"; };
 		A6761D3C65B4495FA22B0A78 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		FBE45F396D1342C68693711E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -144,6 +147,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		038959D819C414080089E31B /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				038959D919C414110089E31B /* LNKPhoneSettingsViewController.h */,
+				038959DA19C414110089E31B /* LNKPhoneSettingsViewController.m */,
+				038959DC19C416B90089E31B /* LNKContactSelectionViewController.h */,
+				038959DD19C416B90089E31B /* LNKContactSelectionViewController.m */,
+			);
+			name = Phone;
+			sourceTree = "<group>";
+		};
 		039775C719C3C567000A7FF7 = {
 			isa = PBXGroup;
 			children = (
@@ -311,8 +325,7 @@
 		03FE4E4B19C4060F0014FF33 /* App Settings */ = {
 			isa = PBXGroup;
 			children = (
-				03FE4E4C19C4061C0014FF33 /* LNKAppSettingsViewController.h */,
-				03FE4E4D19C4061C0014FF33 /* LNKAppSettingsViewController.m */,
+				038959D819C414080089E31B /* Phone */,
 			);
 			name = "App Settings";
 			sourceTree = "<group>";
@@ -454,10 +467,11 @@
 				03E5353219C3CD57001AE495 /* LNKDataManager.m in Sources */,
 				039775EA19C3C567000A7FF7 /* LNKViewController.m in Sources */,
 				03E5353619C3CD88001AE495 /* LNKLinkManager.m in Sources */,
+				038959DB19C414110089E31B /* LNKPhoneSettingsViewController.m in Sources */,
+				038959DE19C416B90089E31B /* LNKContactSelectionViewController.m in Sources */,
 				03FE4E4919C405FA0014FF33 /* LNKAppListViewController.m in Sources */,
 				039775E019C3C567000A7FF7 /* main.m in Sources */,
 				03E5353A19C3F366001AE495 /* NSDictionary+URLEncoding.m in Sources */,
-				03FE4E4E19C4061C0014FF33 /* LNKAppSettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

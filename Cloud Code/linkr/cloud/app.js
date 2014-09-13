@@ -20,8 +20,8 @@ app.get('/:hash', function(request,response) {
 	query.equalTo("hash",hash.toString());
 	query.first().then(function(lnk){
 		var linked = lnk.get("link");
-		var iconURL = lnk.get("iconImage").url();
-		var launchURL = lnk.get("launchImage").url();
+		var iconURL = lnk.get("iconImage");
+		var launchURL = lnk.get("launchImage");
 		var title = lnk.get("title");
 		response.render('icon', {link:linked, iURL:iconURL, lURL:launchURL, title:title});
 	});

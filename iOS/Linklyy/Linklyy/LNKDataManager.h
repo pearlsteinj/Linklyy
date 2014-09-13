@@ -10,6 +10,8 @@
 
 @interface LNKDataManager : NSObject
 
+@property(nonatomic) NSString *selectedPhone;
+
 // Register a link with the server. Callback response will be the hash location
 // of the icon.
 - (void)createLink:(NSString *)link

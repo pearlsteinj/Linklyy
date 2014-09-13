@@ -12,7 +12,7 @@
 #import "NSDictionary+URLEncoding.h"
 
 @implementation LNKLinkManager
-objection_register(LNKLinkManager)
+objection_register_singleton(LNKLinkManager)
 objection_requires(@"dataManager")
 
 - (void)awakeFromObjection {
@@ -36,13 +36,17 @@ objection_requires(@"dataManager")
 #pragma mark - Private
 
 - (NSMutableDictionary *)getIconDictionary {
+    NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
+    [dict setObject:[UIImage imageNamed:@"phone"] forKey:@"phone"];
     //TODO(josh)
-    return nil;
+    return dict;
 }
 
 - (NSMutableDictionary *)getLaunchIconDictionary {
+    NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
+    [dict setObject:[UIImage imageNamed:@"phone"] forKey:@"phone"];
     //TODO(josh)
-    return nil;
+    return dict;
 }
 
 @end

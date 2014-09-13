@@ -9,7 +9,7 @@
 #import "LNKDataManager.h"
 
 @implementation LNKDataManager
-objection_register(LNKDataManager)
+objection_register_singleton(LNKDataManager)
 
 - (void)createLink:(NSString *)link
           withIcon:(UIImage *)icon
@@ -23,8 +23,8 @@ objection_register(LNKDataManager)
     PFFile *launchFile = [PFFile fileWithData:UIImageJPEGRepresentation(launch, .3)];
     [iconFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         [launchFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-            [params setObject:iconFile forKey:@"icon"];
-            [params setObject:launchFile forKey:@"launch"];
+            [params setObject:[iconFile url] forKey:@"icon"];
+            [params setObject:[launchFile url] forKey:@"launch"];
             [PFCloud callFunctionInBackground:@"createLink"
                                withParameters:params
                                         block:^(id object, NSError *error) {
