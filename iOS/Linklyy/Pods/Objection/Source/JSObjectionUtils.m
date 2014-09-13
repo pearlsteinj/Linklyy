@@ -3,6 +3,9 @@
 #import "JSObjectionInjector.h"
 #import "JSObjection.h"
 #import "NSObject+Objection.h"
+
+#pragma GCC diagnostic ignored "-Wundeclared-selector"
+
 static NSString *const JSObjectionException = @"JSObjectionException";
 
 NSString *const JSObjectionInitializerKey = @"initializer";

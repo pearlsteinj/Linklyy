@@ -3,6 +3,8 @@
 #import "JSObjectionUtils.h"
 #import "NSObject+Objection.h"
 
+#pragma GCC diagnostic ignored "-Wundeclared-selector"
+
 @interface JSObjectionInjectorEntry()
 - (id)buildObject:(NSArray *)arguments;
 - (id)argumentsForObject:(NSArray *)givenArguments;
