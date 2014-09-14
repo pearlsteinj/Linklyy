@@ -33,8 +33,18 @@ objection_requires(@"linkManager", @"dataManager")
     [super viewDidLoad];
     self.linkManager = [[JSObjection defaultInjector] getObject:[LNKLinkManager class]];
     self.dataManager = [[JSObjection defaultInjector] getObject:[LNKDataManager class]];
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismissKey)];
+    [self.view addGestureRecognizer:tap];
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pop)];
+    [self.view addGestureRecognizer:pan];
 }
 
+- (void)dismissKey {
+    [self.textField resignFirstResponder];
+}
+- (void)pop {
+    [self.navigationController popViewControllerAnimated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

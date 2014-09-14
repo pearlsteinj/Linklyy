@@ -28,6 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationController.interactivePopGestureRecognizer.enabled = YES;
     self.buttonArr = [[NSMutableArray alloc] init];
     for (int i = 1; i < 12; i++) {
         UIButton *btn = (UIButton *)[self.view viewWithTag:i];

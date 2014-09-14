@@ -32,12 +32,16 @@
     self.dataManager = [[JSObjection defaultInjector] getObject:[LNKDataManager class]];
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismissKey)];
     [self.view addGestureRecognizer:tap];
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pop)];
+    [self.view addGestureRecognizer:pan];
 }
 
 - (void)dismissKey {
     [self.textField resignFirstResponder];
 }
-
+- (void)pop {
+    [self.navigationController popViewControllerAnimated:YES];
+}
 - (IBAction)doneButtonPressed:(id)sender {
     [self.activityInd startAnimating];
     NSString *name = self.textField.text;
