@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="K4Y-8p-ESZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A343f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="K4Y-8p-ESZ">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment defaultVersion="1808" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -37,7 +37,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WwI-Vd-gpW">
-                                <rect key="frame" x="224" y="198" width="59" height="60"/>
+                                <rect key="frame" x="224" y="177" width="59" height="60"/>
                                 <state key="normal" image="spotify">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -46,7 +46,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BnP-kj-ttY">
-                                <rect key="frame" x="38" y="196" width="62" height="63"/>
+                                <rect key="frame" x="38" y="175" width="62" height="63"/>
                                 <state key="normal" image="phone">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -55,7 +55,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upQ-Gi-h0f">
-                                <rect key="frame" x="131" y="198" width="59" height="60"/>
+                                <rect key="frame" x="131" y="177" width="59" height="60"/>
                                 <state key="normal" image="maps">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -64,7 +64,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z40-0Z-vtb">
-                                <rect key="frame" x="40" y="287" width="59" height="60"/>
+                                <rect key="frame" x="40" y="266" width="59" height="60"/>
                                 <state key="normal" image="email">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -73,7 +73,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vK5-OD-qhl">
-                                <rect key="frame" x="131" y="374" width="59" height="60"/>
+                                <rect key="frame" x="131" y="353" width="59" height="60"/>
                                 <state key="normal" image="twitter">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -82,7 +82,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxS-wW-qsb">
-                                <rect key="frame" x="38" y="374" width="59" height="60"/>
+                                <rect key="frame" x="38" y="353" width="59" height="60"/>
                                 <state key="normal" image="pinterest">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -91,7 +91,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qt-fy-sXy">
-                                <rect key="frame" x="224" y="374" width="59" height="60"/>
+                                <rect key="frame" x="224" y="353" width="59" height="60"/>
                                 <state key="normal" image="youtube">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -100,7 +100,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ged-nX-BDW">
-                                <rect key="frame" x="224" y="287" width="59" height="60"/>
+                                <rect key="frame" x="224" y="266" width="59" height="60"/>
                                 <state key="normal" image="sms">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -109,12 +109,30 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4z1-x9-QAJ">
-                                <rect key="frame" x="131" y="287" width="59" height="60"/>
+                                <rect key="frame" x="131" y="266" width="59" height="60"/>
                                 <state key="normal" image="facetime">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="Uz0-e0-epi" kind="push" id="4iz-wx-jEX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHq-E7-ew5">
+                                <rect key="frame" x="86" y="446" width="59" height="60"/>
+                                <state key="normal" image="waze">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WR0-UE-LFL" kind="push" id="kiZ-Bi-kWg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C5K-yf-kS0">
+                                <rect key="frame" x="175" y="446" width="59" height="60"/>
+                                <state key="normal" image="yelp">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="307-SS-BJn" kind="push" id="snq-aj-Fff"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -126,7 +144,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="krh-Vj-DUo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-70" y="-1585"/>
+            <point key="canvasLocation" x="-139" y="-1585"/>
         </scene>
         <!--Phone Settings View Controller-->
         <scene sceneID="UHp-iZ-ogc">
@@ -798,6 +816,142 @@
             </objects>
             <point key="canvasLocation" x="122" y="-833"/>
         </scene>
+        <!--Waze Settings View Controller-->
+        <scene sceneID="kK3-uv-Lfv">
+            <objects>
+                <viewController id="WR0-UE-LFL" customClass="LNKWazeSettingsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Wk-y5-kuS"/>
+                        <viewControllerLayoutGuide type="bottom" id="Em1-1w-26l"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h6N-OV-zya">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pxJ-mP-Sig">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="settings_background" translatesAutoresizingMaskIntoConstraints="NO" id="29t-OG-eiC">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liC-sn-5gZ">
+                                        <rect key="frame" x="17" y="415" width="286.5" height="89.5"/>
+                                        <state key="normal" image="submit_button">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="doneButtonPressed:" destination="vW6-RI-KKG" eventType="touchUpInside" id="Fcq-Y7-YQE"/>
+                                            <action selector="doneButtonPressed:" destination="WR0-UE-LFL" eventType="touchUpInside" id="ms5-11-NoG"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcG-g9-XHL">
+                                        <rect key="frame" x="49" y="149" width="220" height="45"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Search Waze">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="20" name="HelveticaNeue-Light"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" placeholder="Waze search" minimumFontSize="17" background="textbox" translatesAutoresizingMaskIntoConstraints="NO" id="RhX-d7-p2T">
+                                        <rect key="frame" x="15" y="202" width="289" height="51"/>
+                                        <attributedString key="attributedText"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="WR0-UE-LFL" id="DRV-ba-yiJ"/>
+                                        </connections>
+                                    </textField>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="IFS-n2-G2S">
+                                        <rect key="frame" x="142" y="358" width="37" height="37"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="isc-kM-6qO"/>
+                    <connections>
+                        <outlet property="activityInd" destination="IFS-n2-G2S" id="ddA-ew-v5b"/>
+                        <outlet property="textField" destination="RhX-d7-p2T" id="pu0-vI-039"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ptt-my-ojP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-214" y="-824"/>
+        </scene>
+        <!--Yelp Settings View Controller-->
+        <scene sceneID="KyP-es-zww">
+            <objects>
+                <viewController id="307-SS-BJn" customClass="LNKYelpSettingsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OLI-Ux-CMK"/>
+                        <viewControllerLayoutGuide type="bottom" id="USs-oy-tna"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zPZ-Rk-4mG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Mh-ON-XQV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="settings_background" translatesAutoresizingMaskIntoConstraints="NO" id="M7z-vk-rel">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbI-0p-JKu">
+                                        <rect key="frame" x="17" y="415" width="286.5" height="89.5"/>
+                                        <state key="normal" image="submit_button">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="doneButtonPressed:" destination="vW6-RI-KKG" eventType="touchUpInside" id="l6F-yb-H6T"/>
+                                            <action selector="doneButtonPressed:" destination="307-SS-BJn" eventType="touchUpInside" id="vbp-F3-qgH"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8UF-uG-5YE">
+                                        <rect key="frame" x="49" y="149" width="220" height="45"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Search Yelp">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="20" name="HelveticaNeue-Light"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" placeholder="Yelp search" minimumFontSize="17" background="textbox" translatesAutoresizingMaskIntoConstraints="NO" id="Cuo-lK-V4O">
+                                        <rect key="frame" x="15" y="202" width="289" height="51"/>
+                                        <attributedString key="attributedText"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="307-SS-BJn" id="q3R-9M-yd1"/>
+                                        </connections>
+                                    </textField>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="0Ae-x4-mJo">
+                                        <rect key="frame" x="142" y="358" width="37" height="37"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JZz-pl-Drx"/>
+                    <connections>
+                        <outlet property="activityInd" destination="0Ae-x4-mJo" id="lGO-Dj-mUp"/>
+                        <outlet property="textField" destination="Cuo-lK-V4O" id="Udd-sc-RiK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E5q-FM-lyy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-567" y="-824"/>
+        </scene>
     </scenes>
     <resources>
         <image name="email" width="600" height="600"/>
@@ -812,6 +966,8 @@
         <image name="submit_button" width="573" height="179"/>
         <image name="textbox" width="573" height="85"/>
         <image name="twitter" width="600" height="600"/>
+        <image name="waze" width="600" height="600"/>
+        <image name="yelp" width="120" height="120"/>
         <image name="youtube" width="120" height="120"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

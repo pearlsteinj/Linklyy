@@ -54,7 +54,10 @@ objection_requires(@"dataManager")
     [dict setObject:[UIImage imageNamed:@"twitter"] forKey:@"twitter"];
     [dict setObject:[UIImage imageNamed:@"youtube"] forKey:@"youtube"];
     [dict setObject:[UIImage imageNamed:@"pinterest"] forKey:@"pinterest"];
+    [dict setObject:[UIImage imageNamed:@"waze"] forKey:@"waze"];
+    [dict setObject:[UIImage imageNamed:@"yelp"] forKey:@"yelp"];
 
+    
     //TODO(josh)
     return dict;
 }
@@ -69,6 +72,10 @@ objection_requires(@"dataManager")
     [dict setObject:[UIImage imageNamed:@"sms_l"] forKey:@"sms"];
     [dict setObject:[UIImage imageNamed:@"youtube_l"] forKey:@"youtube"];
     [dict setObject:[UIImage imageNamed:@"pinterest"] forKey:@"pinterest"];
+    [dict setObject:[UIImage imageNamed:@"waze"] forKey:@"waze"];
+    [dict setObject:[UIImage imageNamed:@"yelp"] forKey:@"yelp"];
+
+    
     //TODO(josh)
     return dict;
 }

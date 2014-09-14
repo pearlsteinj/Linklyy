@@ -46,6 +46,8 @@
 		03E5353619C3CD88001AE495 /* LNKLinkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5353519C3CD88001AE495 /* LNKLinkManager.m */; };
 		03E5353A19C3F366001AE495 /* NSDictionary+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5353919C3F366001AE495 /* NSDictionary+URLEncoding.m */; };
 		03FE4E4919C405FA0014FF33 /* LNKAppListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FE4E4819C405FA0014FF33 /* LNKAppListViewController.m */; };
+		5813CF4E19C5182A009DFE34 /* LNKYelpSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5813CF4D19C5182A009DFE34 /* LNKYelpSettingsViewController.m */; };
+		581CD8F219C50A25007E10ED /* LNKWzeSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581CD8F019C50A25007E10ED /* LNKWzeSettingsViewController.m */; };
 		581EF19019C435550039F79D /* LNKFacetimeSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581EF18E19C435550039F79D /* LNKFacetimeSettingsViewController.m */; };
 		58A96BCC19C43DC2006E2D63 /* LNKEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A96BCB19C43DC2006E2D63 /* LNKEmailViewController.m */; };
 		58F0F55819C45918000A5C38 /* LNKSMSSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F0F55619C45918000A5C38 /* LNKSMSSettingsViewController.m */; };
@@ -120,6 +122,10 @@
 		03E5353919C3F366001AE495 /* NSDictionary+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URLEncoding.m"; sourceTree = "<group>"; };
 		03FE4E4719C405FA0014FF33 /* LNKAppListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKAppListViewController.h; sourceTree = "<group>"; };
 		03FE4E4819C405FA0014FF33 /* LNKAppListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKAppListViewController.m; sourceTree = "<group>"; };
+		5813CF4C19C5182A009DFE34 /* LNKYelpSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKYelpSettingsViewController.h; sourceTree = "<group>"; };
+		5813CF4D19C5182A009DFE34 /* LNKYelpSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKYelpSettingsViewController.m; sourceTree = "<group>"; };
+		581CD8F019C50A25007E10ED /* LNKWzeSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKWzeSettingsViewController.m; sourceTree = "<group>"; };
+		581CD8F119C50A25007E10ED /* LNKWazeSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKWazeSettingsViewController.h; sourceTree = "<group>"; };
 		581EF18E19C435550039F79D /* LNKFacetimeSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNKFacetimeSettingsViewController.m; sourceTree = "<group>"; };
 		581EF18F19C435550039F79D /* LNKFacetimeSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKFacetimeSettingsViewController.h; sourceTree = "<group>"; };
 		58A96BCA19C43DC2006E2D63 /* LNKEmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNKEmailViewController.h; sourceTree = "<group>"; };
@@ -387,6 +393,8 @@
 		03FE4E4B19C4060F0014FF33 /* App Settings */ = {
 			isa = PBXGroup;
 			children = (
+				5813CF4B19C5181D009DFE34 /* Yelp */,
+				581CD8EF19C50931007E10ED /* Waze */,
 				58F0F55919C45ECB000A5C38 /* Twitter */,
 				58F0F55219C45832000A5C38 /* SMS */,
 				58A96BC919C43D01006E2D63 /* Email */,
@@ -398,6 +406,24 @@
 				03D7019819C4B05700E4F6A4 /* Pinterest */,
 			);
 			name = "App Settings";
+			sourceTree = "<group>";
+		};
+		5813CF4B19C5181D009DFE34 /* Yelp */ = {
+			isa = PBXGroup;
+			children = (
+				5813CF4C19C5182A009DFE34 /* LNKYelpSettingsViewController.h */,
+				5813CF4D19C5182A009DFE34 /* LNKYelpSettingsViewController.m */,
+			);
+			name = Yelp;
+			sourceTree = "<group>";
+		};
+		581CD8EF19C50931007E10ED /* Waze */ = {
+			isa = PBXGroup;
+			children = (
+				581CD8F019C50A25007E10ED /* LNKWzeSettingsViewController.m */,
+				581CD8F119C50A25007E10ED /* LNKWazeSettingsViewController.h */,
+			);
+			name = Waze;
 			sourceTree = "<group>";
 		};
 		581EF18519C42F960039F79D /* Facetime */ = {
@@ -487,7 +513,7 @@
 				ORGANIZATIONNAME = Linklyy;
 				TargetAttributes = {
 					039775CF19C3C567000A7FF7 = {
-						DevelopmentTeam = LRCHYST593;
+						DevelopmentTeam = X2Q53969Z5;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 0;
@@ -592,7 +618,9 @@
 				03FE4E4919C405FA0014FF33 /* LNKAppListViewController.m in Sources */,
 				581EF19019C435550039F79D /* LNKFacetimeSettingsViewController.m in Sources */,
 				03D7019719C4B05300E4F6A4 /* LNKPinterestSettingsViewController.m in Sources */,
+				5813CF4E19C5182A009DFE34 /* LNKYelpSettingsViewController.m in Sources */,
 				039775E019C3C567000A7FF7 /* main.m in Sources */,
+				581CD8F219C50A25007E10ED /* LNKWzeSettingsViewController.m in Sources */,
 				03E5353A19C3F366001AE495 /* NSDictionary+URLEncoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -659,7 +687,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Peter Bryan (GV22UKXNE3)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -697,7 +725,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Peter Bryan (GV22UKXNE3)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

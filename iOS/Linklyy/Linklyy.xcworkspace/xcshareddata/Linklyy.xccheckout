@@ -12,22 +12,34 @@
 	<dict>
 		<key>1B1215F6-6D03-4747-BE42-AEE0B3E4FC11</key>
 		<string>https://github.com/pearlsteinj/Linklyy.git</string>
+		<key>8A0AF3104030D0777F89D8878ABFA154E5833448</key>
+		<string>https://github.com/pearlsteinj/Linklyy.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>iOS/Linklyy/Linklyy.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1B1215F6-6D03-4747-BE42-AEE0B3E4FC11</key>
+		<string>../../../../PennAppsFall2014</string>
+		<key>8A0AF3104030D0777F89D8878ABFA154E5833448</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/pearlsteinj/Linklyy.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1B1215F6-6D03-4747-BE42-AEE0B3E4FC11</string>
+	<string>8A0AF3104030D0777F89D8878ABFA154E5833448</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8A0AF3104030D0777F89D8878ABFA154E5833448</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Linklyy</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
