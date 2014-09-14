@@ -336,7 +336,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="krh-Vj-DUo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-139" y="-1585"/>
+            <point key="canvasLocation" x="55" y="-1671"/>
         </scene>
         <!--Phone Settings View Controller-->
         <scene sceneID="UHp-iZ-ogc">
