@@ -12,7 +12,7 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				if (!window.navigator.standalone) {
-					$('div#html').html("<img src='<%= iURL %>' height='60' width='60' class='centered' />");
+					$('div#html').html("<img src='<%= iURL %>' style='background:transparent' height='60' width='60' class='centered' />");
 				} else {
 					$('body').attr("background", "<img src='data:image/jpeg;base64,<%= lURL %>' />");
 					window.location.replace("<%= link %>");
