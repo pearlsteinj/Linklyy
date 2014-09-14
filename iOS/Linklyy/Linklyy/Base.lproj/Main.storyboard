@@ -377,7 +377,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectContactButtonPressed:" destination="oev-Nk-Wn6" eventType="touchUpInside" id="Nuc-rA-lIB"/>
+                                    <action selector="selectContactButtonPressed:" destination="oev-Nk-Wn6" eventType="touchUpInside" id="ElT-rq-yMp"/>
                                 </connections>
                             </button>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="TJH-gc-WSl">
@@ -788,7 +788,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="KDb-OE-Dpu" kind="push" identifier="contacts" id="Q4x-Xw-xVb"/>
+                                    <action selector="selectContactButtonPressed:" destination="Uz0-e0-epi" eventType="touchUpInside" id="9d5-sq-UAg"/>
                                 </connections>
                             </button>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="c7d-kB-1df">
@@ -801,6 +801,7 @@
                     <connections>
                         <outlet property="activityInd" destination="c7d-kB-1df" id="UrI-VP-tBt"/>
                         <outlet property="textField" destination="SzY-Y6-b6c" id="x9D-t6-bqs"/>
+                        <segue destination="KDb-OE-Dpu" kind="push" identifier="contacts" id="Dk1-NC-Vwc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lTQ-tz-GgM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -929,8 +930,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectContactButtonPressed:" destination="KxB-aJ-dXW" eventType="touchUpInside" id="Rjz-tk-KpB"/>
-                                    <segue destination="KDb-OE-Dpu" kind="push" identifier="contacts" id="TLq-Z7-52b"/>
+                                    <action selector="selectContactButtonPressed:" destination="KxB-aJ-dXW" eventType="touchUpInside" id="DLg-MD-MkD"/>
                                 </connections>
                             </button>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="HD4-q2-V7s">
@@ -943,6 +943,7 @@
                     <connections>
                         <outlet property="activityInd" destination="HD4-q2-V7s" id="X6F-VZ-vnn"/>
                         <outlet property="textField" destination="lVI-AM-Hhq" id="Bhb-7e-fsV"/>
+                        <segue destination="KDb-OE-Dpu" kind="push" identifier="contacts" id="brV-1F-0fe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o8S-f3-OH8" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1186,6 +1187,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Q4x-Xw-xVb"/>
+        <segue reference="brV-1F-0fe"/>
     </inferredMetricsTieBreakers>
 </document>
