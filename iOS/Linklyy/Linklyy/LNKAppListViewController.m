@@ -8,6 +8,8 @@
 
 #import "LNKAppListViewController.h"
 
+#import <Canvas/CSAnimation.h>
+
 @interface LNKAppListViewController ()
 
 @end
@@ -26,7 +28,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.buttonArr = [[NSMutableArray alloc] init];
+    for (int i = 1; i < 12; i++) {
+        UIButton *btn = (UIButton *)[self.view viewWithTag:i];
+        [self.buttonArr addObject:btn];
+    }
 }
 
 - (void)didReceiveMemoryWarning

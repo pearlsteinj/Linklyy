@@ -10,4 +10,6 @@
 
 @interface LNKAppListViewController : UIViewController
 
+@property(nonatomic) NSMutableArray *buttonArr;
+
 @end
