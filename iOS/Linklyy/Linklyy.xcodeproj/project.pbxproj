@@ -513,7 +513,7 @@
 				ORGANIZATIONNAME = Linklyy;
 				TargetAttributes = {
 					039775CF19C3C567000A7FF7 = {
-						DevelopmentTeam = LRCHYST593;
+						DevelopmentTeam = X2Q53969Z5;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 0;

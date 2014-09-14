@@ -50,6 +50,8 @@
     NSString *email = self.emailAddress.text;
     NSString *subject = self.subjectLine.text;
     NSString *body = self.bodyText.text;
+    
+    NSLog(body);
     [self.linkManager openLinkWithAppName:@"email"
                                   andLink:[NSString stringWithFormat:@"mailto:%@?subject=%@&body=%@",email,subject,body]
                                 andParams:[@{} mutableCopy]

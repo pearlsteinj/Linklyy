@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="K4Y-8p-ESZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A343f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="K4Y-8p-ESZ">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment defaultVersion="1808" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -38,7 +38,6 @@
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rve-7H-8YD" customClass="CSAnimationView">
                                 <rect key="frame" x="90" y="44.5" width="141.5" height="97.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="1yz-gg-7T5">
                                         <rect key="frame" x="20" y="20" width="101.5" height="57.5"/>
@@ -57,7 +56,6 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r4U-Au-9JH" customClass="CSAnimationView">
                                 <rect key="frame" x="84" y="446" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHq-E7-ew5">
                                         <rect key="frame" x="1" y="0.0" width="59" height="60"/>
@@ -82,7 +80,6 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OwF-Em-oSG" customClass="CSAnimationView">
                                 <rect key="frame" x="176" y="445" width="62" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C5K-yf-kS0">
                                         <rect key="frame" x="3" y="1" width="59" height="60"/>
@@ -107,7 +104,6 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UZf-2p-1MF" customClass="CSAnimationView">
                                 <rect key="frame" x="223" y="350" width="65" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qt-fy-sXy">
                                         <rect key="frame" x="3" y="3" width="59" height="60"/>
@@ -132,7 +128,6 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tFc-zz-w75" customClass="CSAnimationView">
                                 <rect key="frame" x="34" y="352" width="66" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxS-wW-qsb">
                                         <rect key="frame" x="4" y="2" width="59" height="60"/>
@@ -157,7 +152,6 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qgk-ys-gmv" customClass="CSAnimationView">
                                 <rect key="frame" x="131" y="351" width="67" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vK5-OD-qhl">
                                         <rect key="frame" x="3" y="3" width="59" height="60"/>
@@ -182,7 +176,6 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PDF-EY-B8q" customClass="CSAnimationView">
                                 <rect key="frame" x="224" y="265" width="62" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ged-nX-BDW">
                                         <rect key="frame" x="2" y="3" width="59" height="60"/>
@@ -207,7 +200,6 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="icG-SV-BcR" customClass="CSAnimationView">
                                 <rect key="frame" x="131" y="266" width="64" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4z1-x9-QAJ">
                                         <rect key="frame" x="4" y="0.0" width="59" height="60"/>
@@ -232,7 +224,6 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6XV-3k-1HZ" customClass="CSAnimationView">
                                 <rect key="frame" x="38" y="265" width="62" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z40-0Z-vtb">
                                         <rect key="frame" x="2" y="1" width="59" height="60"/>
@@ -257,7 +248,6 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FOc-3V-Dp6" customClass="CSAnimationView">
                                 <rect key="frame" x="38" y="177" width="62" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BnP-kj-ttY">
                                         <rect key="frame" x="0.0" y="0.0" width="62" height="63"/>
@@ -281,7 +271,6 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s3F-D7-wgG" customClass="CSAnimationView">
                                 <rect key="frame" x="131" y="177" width="60" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upQ-Gi-h0f">
                                         <rect key="frame" x="1" y="0.0" width="59" height="60"/>
@@ -305,7 +294,6 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kfm-td-DZg" customClass="CSAnimationView">
                                 <rect key="frame" x="224" y="174" width="60" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WwI-Vd-gpW">
                                         <rect key="frame" x="1" y="3" width="59" height="60"/>
@@ -366,7 +354,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKs-Ve-GgY">
-                                <rect key="frame" x="54" y="149" width="220" height="45"/>
+                                <rect key="frame" x="50" y="149" width="220" height="45"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Input Phone Number">
                                         <attributes>
@@ -379,12 +367,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" placeholder="Phone Number" minimumFontSize="17" background="textbox" translatesAutoresizingMaskIntoConstraints="NO" id="nOa-Xg-FpP">
-                                <rect key="frame" x="15" y="202" width="209" height="42"/>
+                                <rect key="frame" x="10" y="202" width="209" height="42"/>
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrv-fN-Cqz">
-                                <rect key="frame" x="236" y="202" width="80" height="42"/>
+                                <rect key="frame" x="231" y="202" width="80" height="42"/>
                                 <state key="normal" title="Contacts" backgroundImage="textbox">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -504,7 +492,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" placeholder="Video ID" minimumFontSize="17" background="textbox" translatesAutoresizingMaskIntoConstraints="NO" id="cls-XM-Asr">
                                 <rect key="frame" x="15" y="222" width="289" height="51"/>
                                 <attributedString key="attributedText"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -553,7 +541,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Wl-ET-pEJ">
-                                <rect key="frame" x="45" y="126" width="220" height="45"/>
+                                <rect key="frame" x="49" y="126" width="220" height="45"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Input Board Name">
                                         <attributes>
@@ -566,9 +554,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPT-LD-tj6">
-                                <rect key="frame" x="45" y="230" width="220" height="45"/>
+                                <rect key="frame" x="49" y="230" width="220" height="45"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Input User Name">
+                                    <fragment content="Input Username">
                                         <attributes>
                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="20" name="HelveticaNeue-Light"/>
@@ -578,13 +566,13 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" placeholder="Video ID" minimumFontSize="17" background="textbox" translatesAutoresizingMaskIntoConstraints="NO" id="zEn-U1-jOy">
-                                <rect key="frame" x="11" y="168" width="289" height="51"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" placeholder="Board Name" minimumFontSize="17" background="textbox" translatesAutoresizingMaskIntoConstraints="NO" id="zEn-U1-jOy">
+                                <rect key="frame" x="15" y="168" width="289" height="51"/>
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" placeholder="Video ID" minimumFontSize="17" background="textbox" translatesAutoresizingMaskIntoConstraints="NO" id="42V-gw-KPT">
-                                <rect key="frame" x="11" y="270" width="289" height="51"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" placeholder="Username" minimumFontSize="17" background="textbox" translatesAutoresizingMaskIntoConstraints="NO" id="42V-gw-KPT">
+                                <rect key="frame" x="15" y="270" width="289" height="51"/>
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -595,7 +583,7 @@
                     <connections>
                         <outlet property="activityInd" destination="ubw-kM-5jA" id="aln-xD-h5q"/>
                         <outlet property="textField" destination="zEn-U1-jOy" id="VvJ-qR-GbK"/>
-                        <outlet property="textField2" destination="42V-gw-KPT" id="pI5-wg-cPs"/>
+                        <outlet property="textField2" destination="42V-gw-KPT" id="XiX-Lb-aYe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sb2-Ac-kBk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -630,7 +618,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7y-hP-ntC">
-                                <rect key="frame" x="54" y="149" width="220" height="45"/>
+                                <rect key="frame" x="50" y="149" width="220" height="45"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Input Location">
                                         <attributes>
@@ -643,7 +631,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" placeholder="Destination" minimumFontSize="17" background="textbox" translatesAutoresizingMaskIntoConstraints="NO" id="A77-X0-YgM">
-                                <rect key="frame" x="15" y="202" width="289" height="51"/>
+                                <rect key="frame" x="16" y="202" width="289" height="51"/>
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -651,7 +639,7 @@
                                 <rect key="frame" x="142" y="358" width="37" height="37"/>
                             </activityIndicatorView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="EIx-eQ-tKM">
-                                <rect key="frame" x="70" y="270" width="188" height="29"/>
+                                <rect key="frame" x="66" y="270" width="188" height="29"/>
                                 <segments>
                                     <segment title="Location"/>
                                     <segment title="Directions"/>
@@ -777,7 +765,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B8b-9Q-hNQ">
-                                <rect key="frame" x="54" y="149" width="220" height="45"/>
+                                <rect key="frame" x="50" y="149" width="220" height="45"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Input Phone Number">
                                         <attributes>
@@ -790,17 +778,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" placeholder="Phone Number" minimumFontSize="17" background="textbox" translatesAutoresizingMaskIntoConstraints="NO" id="SzY-Y6-b6c">
-                                <rect key="frame" x="15" y="202" width="209" height="42"/>
+                                <rect key="frame" x="10" y="202" width="209" height="42"/>
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WuG-SM-Nv0">
-                                <rect key="frame" x="236" y="202" width="80" height="42"/>
+                                <rect key="frame" x="231" y="202" width="80" height="42"/>
                                 <state key="normal" title="Contacts" backgroundImage="textbox">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectContactButtonPressed:" destination="Uz0-e0-epi" eventType="touchUpInside" id="i8P-Od-oqo"/>
                                     <segue destination="KDb-OE-Dpu" kind="push" identifier="contacts" id="Q4x-Xw-xVb"/>
                                 </connections>
                             </button>
@@ -852,7 +839,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PoJ-jx-41Z">
-                                        <rect key="frame" x="49" y="149" width="220" height="45"/>
+                                        <rect key="frame" x="50" y="149" width="220" height="45"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Input Playlist Name">
                                                 <attributes>
@@ -916,7 +903,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvd-FR-XRi">
-                                <rect key="frame" x="54" y="149" width="220" height="45"/>
+                                <rect key="frame" x="49" y="149" width="220" height="45"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Input Phone Number">
                                         <attributes>
@@ -929,7 +916,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" placeholder="Phone Number" minimumFontSize="17" background="textbox" translatesAutoresizingMaskIntoConstraints="NO" id="lVI-AM-Hhq">
-                                <rect key="frame" x="15" y="202" width="209" height="42"/>
+                                <rect key="frame" x="10" y="202" width="209" height="42"/>
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                                 <connections>
@@ -937,7 +924,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQ8-QE-vx9">
-                                <rect key="frame" x="236" y="202" width="80" height="42"/>
+                                <rect key="frame" x="231" y="202" width="80" height="42"/>
                                 <state key="normal" title="Contacts" backgroundImage="textbox">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1078,7 +1065,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" placeholder="Waze search" minimumFontSize="17" background="textbox" translatesAutoresizingMaskIntoConstraints="NO" id="RhX-d7-p2T">
-                                        <rect key="frame" x="15" y="202" width="289" height="51"/>
+                                        <rect key="frame" x="16" y="202" width="289" height="51"/>
                                         <attributedString key="attributedText"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
@@ -1199,6 +1186,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="TLq-Z7-52b"/>
+        <segue reference="Q4x-Xw-xVb"/>
     </inferredMetricsTieBreakers>
 </document>

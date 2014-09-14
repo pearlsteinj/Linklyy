@@ -52,7 +52,7 @@
                                   andLink:[NSString stringWithFormat:@"pinterest://board/%@/%@/",name,board]
                                 andParams:[@{} mutableCopy]
                                  andTitle:@"Pinterest"
-                                  andInfo:[NSString stringWithFormat:@"Board: %@, User:%@", name,board]];
+                                  andInfo:[NSString stringWithFormat:@"Board: %@, User:%@", board,name]];
 }
 
 
