@@ -24,6 +24,12 @@ objection_register(LNKAppDelegate)
     JSObjectionInjector *injector = [JSObjection createInjector];
     [JSObjection setDefaultInjector:injector];
     
+    [[UILabel appearanceWhenContainedIn:[UITextField class], nil] setTextColor:[UIColor whiteColor]];
+    [[UILabel appearanceWhenContainedIn:[UITextField class], nil] setTextAlignment:NSTextAlignmentCenter];
+    
+    [[UITextField appearance] setTextColor:[UIColor whiteColor]];
+    [[UITextField appearance] setTextAlignment:NSTextAlignmentCenter];
+    
     return YES;
 }
 

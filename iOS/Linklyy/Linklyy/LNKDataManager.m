@@ -20,8 +20,8 @@ objection_register_singleton(LNKDataManager)
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     [params setObject:link forKey:@"link"];
     [params setObject:title forKey:@"title"];
-    PFFile *iconFile = [PFFile fileWithData:UIImageJPEGRepresentation(icon, .3)];
-    PFFile *launchFile = [PFFile fileWithData:UIImageJPEGRepresentation(launch, .3)];
+    PFFile *iconFile = [PFFile fileWithData:UIImagePNGRepresentation(icon)];
+    PFFile *launchFile = [PFFile fileWithData:UIImagePNGRepresentation(launch)];
     [iconFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         [launchFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
             [params setObject:[iconFile url] forKey:@"icon"];

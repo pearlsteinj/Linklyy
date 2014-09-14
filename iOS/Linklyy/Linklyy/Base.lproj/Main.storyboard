@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="14A343f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="K4Y-8p-ESZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A343f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="K4Y-8p-ESZ">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment defaultVersion="1808" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -36,9 +36,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="list_background" translatesAutoresizingMaskIntoConstraints="NO" id="pzm-9f-mcO">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="1yz-gg-7T5">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="1yz-gg-7T5">
                                 <rect key="frame" x="110" y="64" width="101.5" height="57.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WwI-Vd-gpW">
                                 <rect key="frame" x="224" y="177" width="59" height="60"/>
@@ -165,9 +164,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="list_background" translatesAutoresizingMaskIntoConstraints="NO" id="9rV-iz-Pcr">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="O4n-CO-LbZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="O4n-CO-LbZ">
                                 <rect key="frame" x="110" y="64" width="101.5" height="57.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pg2-Ec-e7D">
                                 <rect key="frame" x="17" y="415" width="286.5" height="89.5"/>
@@ -210,6 +208,7 @@
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                     </view>
                     <navigationItem key="navigationItem" id="m88-Qj-f3m"/>
                     <connections>
@@ -283,9 +282,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="list_background" translatesAutoresizingMaskIntoConstraints="NO" id="WKo-Oe-vbB">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="2Ru-sl-2CD">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="2Ru-sl-2CD">
                                 <rect key="frame" x="110" y="64" width="101.5" height="57.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="48J-LJ-gXt">
                                 <rect key="frame" x="141" y="376" width="37" height="37"/>
@@ -347,9 +345,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="list_background" translatesAutoresizingMaskIntoConstraints="NO" id="bzV-XL-4Yo">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="bRi-ZU-SO6">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="bRi-ZU-SO6">
                                 <rect key="frame" x="110" y="64" width="101.5" height="57.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="ubw-kM-5jA">
                                 <rect key="frame" x="141" y="376" width="37" height="37"/>
@@ -431,9 +428,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="list_background" translatesAutoresizingMaskIntoConstraints="NO" id="7Nn-KK-RbI">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="qdM-j1-H6S">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="qdM-j1-H6S">
                                 <rect key="frame" x="110" y="64" width="101.5" height="57.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9U-Ka-dVN">
                                 <rect key="frame" x="17" y="415" width="286.5" height="89.5"/>
@@ -579,9 +575,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="list_background" translatesAutoresizingMaskIntoConstraints="NO" id="MG5-Zo-d9e">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="1ie-RQ-zUZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="1ie-RQ-zUZ">
                                 <rect key="frame" x="110" y="64" width="101.5" height="57.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HcD-CX-QAM">
                                 <rect key="frame" x="17" y="415" width="286.5" height="89.5"/>
@@ -654,9 +649,8 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="list_background" translatesAutoresizingMaskIntoConstraints="NO" id="4wL-Yn-gAd">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                     </imageView>
-                                    <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="cbq-Is-qSg">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="cbq-Is-qSg">
                                         <rect key="frame" x="110" y="64" width="101.5" height="57.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xd0-Op-NNE">
                                         <rect key="frame" x="17" y="415" width="286.5" height="89.5"/>
@@ -720,9 +714,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="list_background" translatesAutoresizingMaskIntoConstraints="NO" id="Mvd-ZP-Ccv">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="ji3-eC-Yti">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="ji3-eC-Yti">
                                 <rect key="frame" x="110" y="64" width="101.5" height="57.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6WR-9y-vTD">
                                 <rect key="frame" x="17" y="415" width="286.5" height="89.5"/>
@@ -798,9 +791,8 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="list_background" translatesAutoresizingMaskIntoConstraints="NO" id="aoY-RJ-3ur">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                     </imageView>
-                                    <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="DFq-dz-4AO">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="DFq-dz-4AO">
                                         <rect key="frame" x="110" y="64" width="101.5" height="57.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzu-fj-c0X">
                                         <rect key="frame" x="17" y="415" width="286.5" height="89.5"/>
@@ -870,9 +862,8 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="list_background" translatesAutoresizingMaskIntoConstraints="NO" id="29t-OG-eiC">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                     </imageView>
-                                    <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="Pbl-61-75B">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="Pbl-61-75B">
                                         <rect key="frame" x="110" y="64" width="101.5" height="57.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liC-sn-5gZ">
                                         <rect key="frame" x="17" y="415" width="286.5" height="89.5"/>
@@ -976,9 +967,8 @@
                                     <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="0Ae-x4-mJo">
                                         <rect key="frame" x="142" y="358" width="37" height="37"/>
                                     </activityIndicatorView>
-                                    <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="59C-JB-Bwo">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nav_linklyy" translatesAutoresizingMaskIntoConstraints="NO" id="59C-JB-Bwo">
                                         <rect key="frame" x="110" y="64" width="101.5" height="57.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -998,7 +988,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="email" width="600" height="600"/>
+        <image name="email" width="120" height="120"/>
         <image name="facetime" width="60" height="60"/>
         <image name="list_background" width="640" height="1136"/>
         <image name="maps" width="120" height="120"/>
@@ -1009,7 +999,7 @@
         <image name="spotify" width="120" height="120"/>
         <image name="submit_button" width="573" height="179"/>
         <image name="textbox" width="573" height="85"/>
-        <image name="twitter" width="600" height="600"/>
+        <image name="twitter" width="120" height="120"/>
         <image name="waze" width="600" height="600"/>
         <image name="yelp" width="120" height="120"/>
         <image name="youtube" width="120" height="120"/>
@@ -1020,6 +1010,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="TLq-Z7-52b"/>
+        <segue reference="eRE-Vd-W5e"/>
     </inferredMetricsTieBreakers>
 </document>
